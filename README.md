@@ -99,11 +99,7 @@ The goal of this assignment is to learn the core fundamentals of web development
   Implemented side-by-side box floating with float clearing applied below.  
 <img width="481" height="391" alt="Step 20" src="https://github.com/user-attachments/assets/7004cdb8-8f05-4173-8732-9ebf36a4b31d" />
 
-* **Step 21: Publication**  
-  Published the project online using GitHub Pages.  
-  ![Step 21 Screenshot](screenshots/step21.png)
-
 ---
 
 ## Summary of Work Process
-The project began by establishing the basic document tree in `index.html`[cite: 1]. Elements were gradually built out starting with structured text, lists, images, tables, and forms[cite: 1]. Styling was initially added using inline and internal CSS, then organized cleanly into an external `style.css` stylesheet[cite: 1]. Box model rules, sizing metrics, layout alignment, and positioning were refined before committing all assets to GitHub and deploying via GitHub Pages[cite: 1].
+The project began by establishing the basic document tree in `index.html`. Elements were gradually built out starting with structured text, lists, images, tables, and forms. Styling was initially added using inline and internal CSS, then organized cleanly into an external `style.css` stylesheet. Box model rules, sizing metrics, layout alignment, and positioning were refined before committing all assets to GitHub and deploying via GitHub Pages.
