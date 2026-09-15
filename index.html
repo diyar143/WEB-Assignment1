@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diyar's Webpage</title>
+
+    <link rel="icon" type="image/png" href="images/volleyball.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h2 {    
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1 id="main-heading">Welcome to my Webpage</h1>
+        <h3>Name: Diyar Kabyken</h3>
+        <h3>Course: Web Technologies(FrontEND)</h3>
+    </div>
+
+    <div class="main-content">
+        
+        <h2>About Me</h2>
+        <p style="color: blue;">Hello! I am a student learning web development. This is my first webpage project.</p>
+        <p>My mood today: I feel normal😐, but im kinda bored😪 but still I'm excited😯 and ready to learn 💻!</p>
+        <h2>My Hobbies & Favorite Websites</h2>
+        <h3>Hobbies</h3>
+        <ol>
+            <li>Volleyball</li>
+            <li>Gym</li>
+            <li>Playing online games</li>
+        </ol>
+
+        <h3>Favorite Websites</h3>
+        <ul>
+            <li><a href="https://www.roblox.com/?top=1" target="_blank">Roblox</a></li>
+            <li><a href="https://www.youtube.com/watch?v=QDia3e12czc" target="_blank">YouTube</a></li>
+        </ul>
+
+        <h2>My Photo</h2>
+        <img src="images/image.jpg" alt="My Photo" class="profile-img">
+        <br><br>
+        <button type="button">Click me</button>
+
+        <h2>Class Schedule</h2>
+        <table border="1">
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Web Technologies</td>
+                <td>Monday</td>
+                <td>10:00 AM</td>
+            </tr>
+            <tr>
+                <td>Database Systems</td>
+                <td>Wednesday</td>
+                <td>12:00 PM</td>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>Friday</td>
+                <td>02:00 PM</td>
+            </tr>
+        </table>
+
+        <h2>Two Column Layout Table</h2>
+        <table border="1" style="width: 100%;">
+            <tr>
+                <td style="width: 30%; vertical-align: top;">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#main-heading">Top</a></li>
+                        <li><a href="#form-section">Contact Form</a></li>
+                    </ul>
+                </td>
+                <td style="width: 70%; vertical-align: top;">
+                    <h4>Main Content Area</h4>
+                    <p>This is a two-column layout using table columns for structure.</p>
+                </td>
+            </tr>
+        </table>
+
+        <h2>CSS Positioning Demo</h2>
+        <div class="pos-box static-box">Static Box</div>
+        <div class="pos-box relative-box">Relative Box (shifted)</div>
+        <div class="pos-container">
+            <div class="pos-box absolute-box">Absolute Box</div>
+        </div>
+
+        <h2>Float and Clear Layout</h2>
+        <div class="float-box float-left">Float Left Box</div>
+        <div class="float-box float-right">Float Right Box</div>
+        <div class="clear-fix"></div>
+        <p>This text is cleared and placed below the floated boxes.</p>
+
+        <h2 id="form-section">Contact Form</h2>
+
+        <form class="highlight">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="color">Favorite Color:</label><br>
+            <input type="color" id="color" name="color"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 My First Webpage. All rights reserved by my cat named Alfred.</p>
+    </div>
+
+</body>
+</html>

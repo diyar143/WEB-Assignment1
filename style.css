@@ -1,0 +1,95 @@
+#main-heading {
+    color: darkgreen;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.highlight {
+    background-color: #ffffcc;
+    border: 2px solid orange;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #ccc;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: #ffffff;
+    width: 90%; 
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.pos-box {
+    width: 200px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000;
+}
+
+.static-box {
+    position: static;
+    background-color: lightgray;
+}
+
+.relative-box {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    background-color: lightblue;
+}
+
+.pos-container {
+    position: relative;
+    height: 80px;
+    background-color: #eee;
+    margin-top: 10px;
+}
+
+.absolute-box {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: lightpink;
+}
+
+.float-box {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+.float-left {
+    float: left;
+    background-color: #e6f2ff;
+}
+
+.float-right {
+    float: right;
+    background-color: #ffe6e6;
+}
+
+.clear-fix {
+    clear: both;
+}
