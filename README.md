@@ -3,7 +3,7 @@
 **Group:** IT-2503
 ---
 ## Objective
-The goal of this assignment is to learn the core fundamentals of web development using HTML and CSS[cite: 1]. The project covers HTML document structure, formatting, lists, tables, forms, and media elements, alongside CSS rules including selectors, the box model, positioning, layout techniques (floats), and publishing via GitHub Pages
+The goal of this assignment is to learn the core fundamentals of web development using HTML and CSS. The project covers HTML document structure, formatting, lists, tables, forms, and media elements, alongside CSS rules including selectors, the box model, positioning, layout techniques (floats), and publishing via GitHub Pages
 ---
 ## Tasks & Screenshots
 ### Part 1: Introduction to HTML
